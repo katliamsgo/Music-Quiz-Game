@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(gorsel3.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center;
+    color: white;
+    margin-top: 100px;
+}
+
+h1 {
+    color: rgb(255, 4, 4);
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 46px;
+    width: 355px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid rgb(202, 228, 35);
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(122, 205, 170);
+    color: #fffb01;
+    border-radius: 30px;
+    background-color: #0af51e;
+}
+
+button:hover {
+    background-color: rgb(236, 183, 47);
+}
+
+#sonuc {
+    margin-top: 20px;
+    color: black;
+    background-color: aquamarine;
+    height: 37px;
+    width: 252px;
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 32px;
+}
+
+#soru {
+    background-color: aquamarine;
+    height: 40px;
+    width: 650px;
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.container {
+    background-image: url(gorsel2.jpg);
+    width: 700px;
+    margin: auto;
+    border: 2px solid white;
+    background-color: rgb(127, 212, 233);
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+    height: 300px;
+}
